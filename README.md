@@ -14,7 +14,7 @@ Método de Pizón-Arenas
 
 Altere o caminho configurado no arquivo Preparando_Base_De_Dados.m, como a seguir:
 
-imds = imageDatastore('Seu Caminho da Base de dados',... % Caminho da base de dados
+imds = imageDatastore('Caminho do diretório raiz da base de dados',... % Caminho da base de dados
     
 Para ser gerado os resultados do programa para uma determinada base de dados é necessário seguir a seguinte ordem de execução de arquivos:
 
@@ -26,7 +26,7 @@ Método de Jagtap
 
 Altere o caminho configurado no arquivo Preparando_Base_De_Dados.m, como a seguir:
 
-rootFolder = 'Seu Caminho da Base de dados'; % Caminho para realizar as operações. 
+rootFolder = 'Caminho do diretório raiz da base de dados'; % Caminho para realizar as operações.
     
 Para ser gerado os resultados do programa para uma determinada base de dados é necessário seguir a seguinte ordem de execução de arquivos:
 
