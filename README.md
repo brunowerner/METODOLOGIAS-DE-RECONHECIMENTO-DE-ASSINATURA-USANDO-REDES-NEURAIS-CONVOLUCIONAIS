@@ -15,7 +15,6 @@ Método de Pizón-Arenas
 Altere o caminho configurado no arquivo Preparando_Base_De_Dados.m, como a seguir:
 
 imds = imageDatastore('Seu Caminho da Base de dados',... % Caminho da base de dados
-'IncludeSubfolders', true, 'LabelSource', 'foldernames');
     
 Para ser gerado os resultados do programa para uma determinada base de dados é necessário seguir a seguinte ordem de execução de arquivos:
 
